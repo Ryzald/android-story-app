@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyStoryApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/bgWindow</item>
+    </style>
+
+    <style name="Theme.MyStoryApp" parent="Base.Theme.MyStoryApp" />
+
+    <style name="TextAppearance.H1">
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for H2 text -->
+    <style name="TextAppearance.H2">
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for normal text -->
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BtnPrimary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_primary</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="BtnPrimaryNavy" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_primary_navy</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="BtnSecondary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_secondary</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+
+
+    </style>
+
+    <style name="ToolbarTitleText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Base.Theme.MyStoryApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
